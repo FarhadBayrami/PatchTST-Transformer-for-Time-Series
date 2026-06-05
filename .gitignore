@@ -1,0 +1,24 @@
+# data files - never push
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# model weights
+models/*
+!models/.gitkeep
+
+# outputs: keep plots, skip CSVs
+outputs/*.csv
+
+# virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS junk
+.DS_Store
+Thumbs.db
